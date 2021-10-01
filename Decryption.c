@@ -22,7 +22,7 @@ int Decrypt(){
         exit(EXIT_FAILURE);
     }
     fptt=fopen("temp.txt", "w+");
-    if(fptt==NULL)
+    if(fptt==NULL)    //okay so i will help you but till now it is good
     {
         (void)printf(" File does not exist or error in opening..!!\\Its temp mofo");
         (void)fclose(fpts);
